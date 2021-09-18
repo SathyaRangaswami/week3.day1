@@ -2,8 +2,13 @@ package week3.day1.assignment;
 
 public class Stringreplace {
 	public static void main(String[] args) {
+		String sentence = "I am working with Java8";
+	      String replacedword = sentence.replaceAll("\\d", "11");
+	      System.out.println("Repaced  8 with 11: "+replacedword);
+		  System.out.println( replacedword.concat("#"));
+		  System.out.println(replacedword.substring(5,14));
 
-		String str = "I am working with Java8";
+		/*String str = "I am working with Java8";
 		String str1 = str.replaceAll("\\s", "");
 		String replace = "";
 		// replace 8 to 11
@@ -16,7 +21,7 @@ public class Stringreplace {
 		System.out.print("String print from 5 to 14 :");
 		for (int j = 5; j <= 14; j++) {
 			System.out.print(charArray[j]);
-		}
+		}*/
 		
 	}
 
